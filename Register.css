@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(50deg, #EE2E77 , #6D4079);
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:738px;
+}
+
+.register {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;    
+    border-radius: 5px;
+    padding: 25px;
+    flex-direction: column;
+}
+
+p {
+    font-size: 25px;
+    color:#5C5C5C;
+}
+
+h5 {
+    font-size: 15px;
+    color:#5C5C5C;
+    margin: 15px 0 10px 0;
+    width:150px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+}
+
+.flex {
+    display: flex;
+}
+
+input {
+    border-radius: 4px;
+    width: 250px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    border-color: white;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+input[type=radio] {
+    width: 15px;   
+}
+
+input[type=password]{
+    width:528px;
+}
+
+.padding-10px {
+    padding: 10px
+}
+
+.margin-right-25px{
+    margin-right: 25px;
+}
+
+.main-color {
+    background-color:#FAFAFA;
+}
+
+.input-color {
+    background-color:#faf9f9;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 40px;
+    background-color: #4373D9;
+    color:#faf9f9;
+    border-radius: 5px;
+    border-color: #4373D9;
+    font-size: 15px;
+}
+

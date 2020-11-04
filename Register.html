@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="register main-color">
+            <p>Register Form</p>
+            <form method="POST" action="">
+                <div class="flex">
+                    <div class="form-container margin-right-25px">
+                        <h5>First Name</h5>
+                        <input type="text" placeholder="Johny" class="padding-10px input-color">
+                    </div>
+                    <div class="form-container">
+                        <h5>Last Name</h5>
+                        <input type="text" placeholder="Nelson" class="padding-10px input-color">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="form-container margin-right-25px">
+                        <h5>Birthday</h5>
+                        <input type="date" class="padding-10px input-color" required>
+                    </div>
+                    <div id='gender'>
+                        <h5>Gender</h5>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="form-container margin-right-25px">
+                        <h5>Email</h5>
+                        <input type="email"  class="padding-10px input-color">
+                    </div>
+
+                    <div class="form-container">
+                        <h5>Phone Number</h5>
+                        <input type="tel"  class="padding-10px input-color">
+                    </div>
+
+                </div>
+                <div class="form-container">
+                    <h5>Password</h5>
+                    <input type="password" class="padding-10px input-color">
+                </div>
+                <button class="btn" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="Register.js"></script>
+</body>
+
+</html>
